@@ -1,0 +1,233 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#000000,#034550);
+    background-attachment: fixed;
+
+
+}
+
+
+.header{
+    background-color: rgba(12, 92, 61);
+    border-radius: 5px;
+    
+    
+    
+}
+
+.logo{
+    margin: 15px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.a-logo{
+    font-size: 50px;
+    color: #FFFFFF;
+    
+}
+.nav{
+    display: inline-block;
+    margin-left: 55%;
+}
+
+.li-nav{
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+    
+   
+}
+.li-nav :hover{
+    border-bottom: 3px solid #FFFFFF;
+    border-color: red;
+
+}
+.a-nav{
+    margin: 10px;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+.stick{
+    width: 3px;
+    background-color: grey;
+    height: 100%;
+   
+}
+
+.div-section{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+.webimage{
+    margin-top: 50px;
+    margin-top: 200px;
+    
+}
+.text{
+    flex: 1;
+    order: 2;
+    text-align: center;
+    min-width: 500px;
+    flex-grow: 2;
+    margin-top: 300px;
+    
+}
+.h1-text{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Otomanopee One', sans-serif;
+   
+    
+    
+    
+}
+.webimage{
+    flex: 1;
+    order: 3;
+    flex-grow: 1;
+    margin-right: 50px;
+
+    
+}
+.social{
+    margin-top: 31%;
+    flex: 1;
+    order: 1;
+    display: inline-block;
+    margin-left: 15px;
+    width: 60px;
+    flex-grow: 0;
+   
+}
+.social-image{
+    margin-bottom: 10px;
+    height: 15;
+    width: 15;
+}
+
+.name{
+    text-align: center;
+}
+.h1-name{
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.p-description{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.teamprofiles{
+  display: flex;
+  justify-content: space-around;
+  width: 100;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color: #FFFFFF;
+  
+}
+.profileimage1{
+    width: 100%;
+}
+.profile_name{
+    color: red;
+    font-size: 25px;
+}
+.des{
+    margin-left: 3px;
+    margin-top: 5px;
+    color: #3d3333;
+}
+.p-button{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.button {
+    margin-top: 5px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 95%;
+    
+  }
+  .portfolio{
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }  
+  .portfolio_images{
+      width: 23%;
+      margin: 10px;
+      border-radius: 10px;
+      
+      
+  }
+  
+  .portfolio :hover{
+      filter: blur(2px);
+    
+  }
+  .title-portfolio{
+      margin-top: 50px;
+      color: #FFFFFF;
+      font-size: 50px;
+      text-align: center;
+
+  }
+  .contactform{
+      display: block;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      
+  }
+
+ .inputt{
+    color: #FFFFFF;
+    font-size: 15px;
+    
+
+}
+
+  
+.input{
+      margin-bottom: 10px;
+      width: 100%;
+      border-radius: 5px;
+      height: 50px;
+      border-color: grey;
+      border: 1px;
+  }
+  .send{
+      height: 30px;
+      border: 1px;
+      background-color: green;
+      border-radius: 5px;
+      font-size: 20px;
+      width: 200px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+
+  }

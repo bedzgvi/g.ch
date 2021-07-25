@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../font/Roboto-Italic.ttf");
+}
+@font-face {
+    font-family: "RobotoCondensed-Italic";
+    src: url("../font/RobotoCondensed-Italic.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
